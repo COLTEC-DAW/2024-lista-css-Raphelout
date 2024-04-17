@@ -1,0 +1,41 @@
+*{
+    
+    font-family: sans-serif;
+}
+html,body{
+    width: 1000px;
+    background-color: #091414;
+    
+}
+
+h1{
+    font-size: 1.8rem;
+    color: #F2AF5C;
+
+}
+h2{
+    font-size: 1.4rem;
+    color: #4F8C5E
+
+}
+h3{
+    font-size: 1.2rem;
+    color: #4F8C5E;
+}
+abbr{
+    font-family: small-caps;
+}
+p{
+    text-indent: 1em;
+    color: #D93232;
+}
+.main{
+    line-height: 1.5;
+
+}
+.summary{
+    text-align: center;
+}
+a{
+    color:#2966c2
+}
