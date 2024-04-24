@@ -1,26 +1,34 @@
 *{
-    
     font-family: sans-serif;
 }
 html,body{
-    width: 1000px;
     background-color: #091414;
     
 }
+html{
+    width: 80%;
+    max-width: 1280px;
+}
 
+body{
+    
+}
 h1{
     font-size: 1.8rem;
     color: #F2AF5C;
+    text-indent: 1em;
+
 
 }
 h2{
-    font-size: 1.4rem;
-    color: #4F8C5E
-
+     font-size: 1.4rem;
+    color: #4F8C5E;
+    background-color:rgb(15, 12, 12);
 }
 h3{
+    background-color: rgb(15, 12, 12);
     font-size: 1.2rem;
-    color: #4F8C5E;
+    color: #4F8C5E; 
 }
 abbr{
     font-family: small-caps;
@@ -35,7 +43,54 @@ p{
 }
 .summary{
     text-align: center;
+    padding-top: 0px;
 }
 a{
     color:#2966c2
+}
+
+.summary, .main{
+    position: relative;
+    background-color:#111d1d
+}
+
+header{
+    text-align: center;    
+    background-color:#0d1111;
+    width: 100%;
+}
+
+*[role = banner] > h2, *[role = banner] > h1{
+    display: inline;
+}
+
+#design-archives{
+    display:none;
+}
+aside{
+    ul{
+        list-style-type: none;
+        line-height: 1em;
+    }
+}
+.page-wrapper{
+    position: relative;
+}
+
+.explanation{
+    width:60%;
+    margin-right: 35%;
+    border-right: solid, 1px, #000;
+    padding:2%;
+}
+.design-selection{
+    position: absolute;
+    top: 560px;
+    left: 70%;
+    padding:2px;
+
+}
+
+.intro{
+    height: 550px;
 }
