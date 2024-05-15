@@ -110,13 +110,14 @@ header{
     height: 550px;
 }
 
-footer{
+.main > footer{
     color:rgb(6, 168, 14);
     padding:4%;
     background-color: #011d1d;
 }
-footer > a{
-    display:block;
+.main > footer > a{
+    display:flex;
+    justify-content: center;
     border-radius: 2px;
     border-style: solid;    
     border-color: #000;
@@ -132,3 +133,24 @@ li{
     padding-bottom: 5px;;
 }
 
+.benefits{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: #000 2px solid;
+
+
+}
+.benefits > h3{
+    align-self: center;
+    flex: 0 0 30%;
+
+}
+.benefits > text{
+    flex: 0 0 70%;
+}
+
+.participation{
+    display: flex;
+    flex: 0 0 50%;
+    border-top: 2px solid #000000;
+}
