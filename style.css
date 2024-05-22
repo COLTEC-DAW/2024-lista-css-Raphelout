@@ -15,7 +15,7 @@ h1{
     color: #F2AF5C;
     text-indent: 1em;
     display:inline;
-
+    margin-right: 30px;
 }
 h2{
     font-size: 1.4rem;
@@ -80,6 +80,7 @@ header{
 
 #design-archives{
     display:none;
+    position: absolute;
 }
 .design-selection{
     position: absolute;
@@ -87,11 +88,21 @@ header{
     left: 55%;
     padding:2px;
 }
+
+.design-selection li{
+    border-top-style: solid;
+    border-top-style: #380a0a 2px;
+}
+.design-selection li:last-child{
+    border-bottom-style: solid;
+    border-bottom: #000 2px;
+
+}
 .page-wrapper{
     position: relative;
     max-width: 1280px;
     width: 80%;
-
+    margin-left: 55;
 }
 
 .explanation{
@@ -106,7 +117,7 @@ header{
 }
 
 footer{
-
+    display:flex;
     margin:4%;
 }
 main footer{
@@ -130,11 +141,9 @@ aside ul{
     line-height: 1em;
 }
 
-li:last-child{
-    border-bottom: #000 solid 2px;
-}
+
 aside li{
-    border-bottom: #000 solid 2px;
+    border-bottom: #000000 solid 2px;
     padding-top: 5px;
     padding-bottom: 5px;;
     text-align: center;
@@ -149,15 +158,18 @@ aside li{
 
 }
 .benefits > h3{
+    display: flex;
     align-self: center;
     flex: 0 0 30%;
 
 }
-.benefits > text{
+
+.benefits p{
     flex: 0 0 70%;
 }
 
 .participation{
+    flex-wrap: wrap;
     display: flex;
     flex: 0 0 50%;
     border-top: 2px solid #000000;
