@@ -175,3 +175,33 @@ aside li{
     flex: 0 0 50%;
     border-top: 2px solid #000000;
 }
+
+@media screen and (max-width: 768px) {
+    .explanation{
+        border-left: none;
+        border-right: none;
+    }
+    .participation{
+        flex-direction: column;
+    }
+    header{
+
+    }
+    p{
+        text-indent: 0;
+    }
+
+
+}
+
+
+
+@media print{
+    p{
+        font-family: times;
+    }
+    header{
+        background-color:rgb(0, 70, 0);
+        color: #000000;
+    }
+}
